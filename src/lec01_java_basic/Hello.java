@@ -1,4 +1,4 @@
-package lec01JavaBasic;
+package lec01_java_basic;
 
 public class Hello {
 	public static void main(String[] args) {

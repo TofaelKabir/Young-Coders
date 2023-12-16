@@ -1,4 +1,4 @@
-package lec01JavaBasic;
+package lec01_java_basic;
 
 // we can create more than one package inside the src file [src is called source file]
 // we can create more than one class inside a package
@@ -8,7 +8,7 @@ package lec01JavaBasic;
 
 public class HelloWorld {
 	// type 'main', then press Enter to get help from content assist to find main method
-	// main method
+	// main method, this is static type [means local/personal method of this class]
 	// it is the entry point of the Java
 	// This is used to execute the code
 	// If it is absent, no execution of code
@@ -21,6 +21,8 @@ public class HelloWorld {
 		// below line is also system generated printing command, used for printing something
 		System.out.println("Hello World!");
 		// common mistake: we forgot to put double quotation inside parenthesis
+		// forgot semicolon at the end of syso
+		// Missing of curly braces
 		// For execution: We have to save the code (Manually by clicking save/save all button on the top left)
 		// Windows user: keyboard shortcut: save (ctrl+s), saveAll (ctrl+shift+s)
 		// Mac user: keyboard shortcut: save (command+s), saveAll (command+shift+s)		
