@@ -14,9 +14,9 @@ package lec03_java_basic;
 
 public class F_creating_new_line_and_new_tab {
 	public static void main(String[] args) {
-		System.out.println("Jason Momoa, Born today at 1979, American actor (Game of Thrones, Aquaman), born in Honolulu, Hawaii");
+		System.out.println("Jason Momoa, Born at 1979, American actor (Game of Thrones, Aquaman), born in Honolulu, Hawaii");
 		System.out.println("\n-----------------------------------------------------------------------------------------");
-		System.out.println("\tJason Momoa, \n\tBorn today at 1979, American actor (Game of Thrones, Aquaman), born in Honolulu, Hawaii");
+		System.out.println("\tJason Momoa, \n\tBorn at 1979, American actor (Game of Thrones, Aquaman), born in Honolulu, Hawaii");
 	}
 
 }
