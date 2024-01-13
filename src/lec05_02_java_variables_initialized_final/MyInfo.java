@@ -1,4 +1,4 @@
-package lec05_02_java_variables_declared_final;
+package lec05_02_java_variables_initialized_final;
 
 public class MyInfo {
 	// variables initialized
