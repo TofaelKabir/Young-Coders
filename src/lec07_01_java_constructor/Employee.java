@@ -1,4 +1,4 @@
-package lec06_02_java_constructor;
+package lec07_01_java_constructor;
 
 public class Employee {
 	// variables declared
@@ -31,4 +31,21 @@ public class Employee {
 		System.out.println("Employee Name: " + empName  + "\nEmployee Id: " + empId + "\nEmployee Gender: " + empGender + "\nFull Time Employee: " + fullTimeEmployee);
 	}
 
+	// Parameterized Constructor declared -02
+	public Employee(int empId, char empGender, boolean fullTimeEmployee) {
+		this.empId = empId;
+		this.empGender = empGender;
+		this.fullTimeEmployee = fullTimeEmployee;
+		System.out.println("Employee Id: " + empId + "\nEmployee Gender: " + empGender + "\nFull Time Employee: " + fullTimeEmployee);
+	}
+	
+	// you can create other parameterized constructor with same number of parameter but the position of parametr is different
+	// Parameterized Constructor declared -03
+	public Employee(char empGender, boolean fullTimeEmployee, int empId) {
+		this.empId = empId;
+		this.empGender = empGender;
+		this.fullTimeEmployee = fullTimeEmployee;
+		// The outcome is same as line 39, it doesn't matter, what is the sequence in outcome
+		System.out.println("Employee Id: " + empId + "\nEmployee Gender: " + empGender + "\nFull Time Employee: " + fullTimeEmployee);
+	}
 }
