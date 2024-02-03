@@ -1,4 +1,4 @@
-package lec07_02_java_different_type_of_methods;
+package lec08_01_java_different_type_of_methods;
 
 public class MyInfo {
 	// Class body contains methods after variables and Constructor

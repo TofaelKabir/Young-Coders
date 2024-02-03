@@ -39,7 +39,7 @@ public class Employee {
 		System.out.println("Employee Id: " + empId + "\nEmployee Gender: " + empGender + "\nFull Time Employee: " + fullTimeEmployee);
 	}
 	
-	// you can create other parameterized constructor with same number of parameter but the position of parametr is different
+	// you can create other parameterized constructor with same number of parameter but the position of parameter is different
 	// Parameterized Constructor declared -03
 	public Employee(char empGender, boolean fullTimeEmployee, int empId) {
 		this.empId = empId;
