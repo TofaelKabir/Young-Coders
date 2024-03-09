@@ -30,7 +30,8 @@ public class LearningParameterizedMethod {
 	}
 	
 	// static type method
-	// is a local method of the class, other class can't call it
+	// static is a local member method of this class
+	// other class can't call it
 	public static void country() {
 		System.out.println("USA");
 	}

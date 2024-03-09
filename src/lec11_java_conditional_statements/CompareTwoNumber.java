@@ -1,4 +1,4 @@
-package lec10_java_conditional_statements;
+package lec11_java_conditional_statements;
 
 
 /*
