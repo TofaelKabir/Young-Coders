@@ -1,4 +1,5 @@
-package lec16_coding_challenge;
+package lec17_coding_challenge;
+
 
 /*
 Que: Print your name vertically but reverse [They will not mention: character by character]
@@ -40,13 +41,29 @@ T
 */
 
 public class A04_characterOneByOneVerticallyButReverse {
-
-	public static void main(String[] args) {
-		String s = "Rubayyi Saaim";
-		for (int i = s.length() - 1; i >=0; i -= 1) {		
-				System.out.println(s.charAt(i));
+	// parameterized method can be reused
+	// why the method is static, because we can't call non static method inside main method
+	public static void stringInReverse(String s) {
+		for(int i = s.length()-1; i >=0; i--) {
+			System.out.println(s.charAt(i));
 		}
+	}
+	
+	public static void main(String[] args) {
+		stringInReverse("Nadia Jara");
+		System.out.println("----------------");
+		stringInReverse("Tofael Kabir");
 
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
