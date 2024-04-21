@@ -1,6 +1,8 @@
 package lec13_java_control_statements;
 
-public class Use_of_z_do_while_loop {
+// The class name is weird just to follow teaching order
+
+public class Use_of_k_do_while_loop {
 	public static void main(String[] args) {
 		System.out.println("\n-------------- for loop --------------\n");
 		for (int i = 0; i <= 5; i++) {

@@ -1,6 +1,8 @@
 package lec13_java_control_statements;
 
-public class use_of_java_break_inside_nested_loop {
+// The class name is weird just to follow teaching order
+
+public class use_of_q_java_break_inside_nested_loop {
 
 	// not important
 	public static void main(String[] args) {

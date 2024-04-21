@@ -1,6 +1,8 @@
 package lec13_java_control_statements;
 
-public class Use_of_java_break {
+// The class name is weird just to follow teaching order
+
+public class Use_of_o_java_break {
 
 	public static void main(String[] args) {
 		System.out.println("\n---------- for loop  ----------\n");

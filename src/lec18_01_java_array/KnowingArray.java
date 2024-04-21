@@ -5,7 +5,7 @@ import java.util.Arrays;
 // What is an Array?
 // An array is a collection of items of same data type stored at contiguous memory locations. 
 
-public class UseOfArray01 {
+public class KnowingArray {
 
 	public static void main(String[] args) {
 		// Generally every value is assigned to a variable name, but in Array, a set of value present under one name
@@ -151,27 +151,7 @@ public class UseOfArray01 {
 		// binary search to get the index position of the value from the ref
 		System.out.println("\nPrinting the index position of the value form the ref: " + Arrays.binarySearch(val, 3)); //TODO WHY -1?
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 		
 	}
 

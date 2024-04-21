@@ -1,6 +1,8 @@
 package lec13_java_control_statements;
 
-public class Use_of_java_continue {
+// The class name is weird just to follow teaching order
+
+public class Use_of_p_java_continue {
 
 	public static void main(String[] args) {
 		System.out.println("\n---------- for loop  ----------\n");
