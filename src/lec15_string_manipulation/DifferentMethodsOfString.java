@@ -312,13 +312,6 @@ public class DifferentMethodsOfString {
         String result = String.join(delimiter, "Espresso", "is", "Good");
         System.out.println(result);
 
-
-
-
-		
-		
-		
-		
 	}
 
 }
