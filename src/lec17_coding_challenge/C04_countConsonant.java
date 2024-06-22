@@ -5,7 +5,8 @@ package lec17_coding_challenge;
 public class C04_countConsonant {
 	public static void countConsonant(String s) {
 		s = s.toLowerCase(); 
-		// s = s.replaceAll("\\s", ""); // added in the condition
+		// This is the change, added in the condition
+		// s = s.replaceAll("\\s", "");
 		int count = 0;
 		
 		for(int i = 0; i<s.length(); i++) {

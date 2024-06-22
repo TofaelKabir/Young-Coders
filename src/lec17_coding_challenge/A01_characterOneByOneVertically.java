@@ -1,5 +1,7 @@
 package lec17_coding_challenge;
 
+import java.security.PublicKey;
+
 /*
 Que: Print out your name vertically [They will not mention: character by character]
 Input: Tofael Kabir
@@ -19,12 +21,17 @@ r
 */
 
 public class A01_characterOneByOneVertically {
-	public static void main(String[] args) {
-		String s = "Tofael Kabir"; 
+	
+	public static void nameInVertical(String s) {
 		for(int i=0; i<s.length(); i++) {
 			System.out.println(s.charAt(i));
 		}
-
+	}	
+	
+	public static void main(String[] args) {		
+		nameInVertical("Tofael Kabir");
+		System.out.println("------------");
+		nameInVertical("Joseph Momoa");
 	}
 
 }

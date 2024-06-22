@@ -6,7 +6,7 @@ public class C02_countConsonant {
 	public static void countConsonant(String s) {
 		s = s.toLowerCase(); // here the whole String converted to lower case
 		// s = s.replaceAll(" ", ""); // below line is more smarter
-		s = s.replaceAll("\\s", ""); // replacing all white space [\s stands for “whitespace character”]
+		s = s.replaceAll("\\s", ""); // replacing all white space [\\s stands for “whitespace character”]
 		int count = 0;
 		for(int i = 0; i<s.length(); i++) {
 			// in logical or operator: if one condition is true, then the whole condition is true

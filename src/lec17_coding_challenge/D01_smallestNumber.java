@@ -3,7 +3,7 @@ package lec17_coding_challenge;
 public class D01_smallestNumber {
 
 	public static void main(String[] args) {
-		int [] number = {2, 12, 10, 1, 50};
+		int [] number = {2, 12, 10, 1, 50, 0, -1, -2};
 		
 		int smallest = number[0];
 		
@@ -13,6 +13,7 @@ public class D01_smallestNumber {
 			}
 		}
 		System.out.println(smallest);
+		
 
 	}
 

@@ -8,6 +8,7 @@ public class C05_countConsonant {
 		s = s.toLowerCase();
 		s = s.replaceAll("\\s", "");
 		int count = 0;
+		// we got the vowel from below and then deduct from total length, line 20
 		for (int i = 0; i < s.length(); i++) {
 			if (s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i) == 'i' || s.charAt(i) == 'o'
 					|| s.charAt(i) == 'u') {
@@ -17,7 +18,7 @@ public class C05_countConsonant {
 		// But not a good and smart approach
 		// Interviewer don't like the arithmetic expression for coding challenge
 		System.out.println("Number of Consonant: " + (s.length() - count));
-	}
+	} 
 
 	public static void main(String[] args) {
 		countConsonant("Pack my box with five dozen liquor jugs");

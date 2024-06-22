@@ -19,13 +19,10 @@ public class A06_reverseTheWordsFromParagraph {
 		}
 	}
 	
-	
 	public static void main(String[] args) {
 		reverseTheStringInWords("Hello Mohammad Tofael Kabir Sharkar");
 		System.out.println("\n");
 		reverseTheStringInWords("Hi How are you?");
-		
-
 	}
 
 }
