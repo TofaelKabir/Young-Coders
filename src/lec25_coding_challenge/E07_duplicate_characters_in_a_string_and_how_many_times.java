@@ -2,8 +2,6 @@ package lec25_coding_challenge;
 
 import java.util.HashMap;
 
-//I need to know about it from Nasir/Shohag
-
 public class E07_duplicate_characters_in_a_string_and_how_many_times {
 
 	public static void main(String[] args) {
